@@ -1,0 +1,28 @@
+/* pseudo selector  */
+a:link{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+a:active{
+    color:red}
+a:visited{
+    color: rgb(72, 30, 139);
+}
+#desc a{
+    color: rgb(155, 187, 97);
+}
+#name{
+    color: darkblue;
+    text-align: center;
+}
+#child>a{
+    color: lawngreen;
+}
+/* attribute selector  */
+a[title="Youtube"]{
+    color: gold;
+}
