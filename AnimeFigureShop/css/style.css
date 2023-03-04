@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: teemo;
-    src: url(/font/Slabo27px-Regular.ttf)
+    src: url(../font/Slabo27px-Regular.ttf)
 }
    
 
@@ -65,7 +65,7 @@
     left: 45%;
 }
 .login:hover, .create:hover, .cart:hover{
-    color: orange;
+    color: orangered;
 }
 /* start nav  */
 .nav{

@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     font-family: font;
@@ -526,4 +526,4 @@ iframe{
     text-align: center;
     color: red;
     text-decoration: underline;
-}
+/* }  */
