@@ -231,6 +231,10 @@ transition: .8s;
     margin-top: 10px;
     margin-left: 18px;
 }
+.cu_login span:hover{
+    color: orangered;
+    cursor: pointer;
+}
 .customer input{
     width: 400px;
 height: 35px;
