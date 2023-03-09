@@ -38,22 +38,22 @@ function result(){
     if (myanmar >=40 && english >=40 && math >=40 && chem >=40 && physic >=40 && bio >=40){
 document.write(name+'<h1>is Pass</h1>')    
 }
- if (myanmar >=75){
-    document.write('Myanmar Distinction')
- }if(english>=75){
-    document.write('English Distinction')
- }if(math >=80){
-    document.write('Mathematics Distinction')
+ if (myanmar >=75 && myanmar >=40){
+    document.write('Myanmar D')
+ }if(english>=75 && english >=40){
+    document.write('English D')
+ }if(math >=80  && math >=40){
+    document.write('Mathematics D')
 
  }
- if(chem >=80){
-    document.write('Chemsity Distinction')
+ if(chem >=80 && chem >=40){
+    document.write('Chemsity D')
  }
- if(physic >=80){
-    document.write('Physics Distinction')
+ if(physic >=80 && physic>=40){
+    document.write('Physics D')
  }
- if(bio >=75){
-    document.write('Bio Distinction')
+ if(bio >=75 && bio>=40){
+    document.write('Bio D')
  }
  else {
 document.write(name+'<h1>is Fail</h1>');
