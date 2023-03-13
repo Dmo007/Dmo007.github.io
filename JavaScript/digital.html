@@ -14,7 +14,7 @@
        <span id="mins">00</span>
        <span>:</span>
        <span id="secs">00</span>
-       <span id="session">AM</span>
+       <span id="session">PM</span>
 
     </div>
     <script>
@@ -27,7 +27,11 @@
             document.getElementById('mins').innerHTML=minutes;
             document.getElementById('secs').innerHTML=seconds;
         }
-    
+    if(hr>=12){
+        document.getElementById('session').innerHTML="PM"
+    }else{
+        document.getElementById('session').innerHTML="AM" 
+    }
 setInterval(dateTime,1000);
     </script>
 </body>
